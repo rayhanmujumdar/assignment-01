@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* =================
+common css all
+==================== */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    max-width: 940px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.half-width{
+    width: 45%;
+}
+/* section 01 start from here */
+.section-01{
+    width: 100%;
+    margin: 40px 0;
+}
+
+.section-01 .content .line{
+    width: 5px;
+    height: 100px;
+    background: salmon;
+    border-radius: 20px;
+    position: absolute;
+}
+.section-01 .content .position h1{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 20px;
+    position: relative;
+}
+.section-01 .content .position h1 .text-color{
+    color: #3F6B91;
+}
+.section-01 .content .position .disc{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.section-01 .content .position .btn{
+    text-decoration: none;
+    padding: 18px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    background: #FF5959;
+    border-radius: 5px;
+    border: none;
+}
+.section-01 .content .position .btn:hover{
+    background: green;
+}
+.section-01 .content .position .scroll-down{
+    margin-top: 40px;
+    font-size: 20px;
+}
+/* section 01 end from here */
