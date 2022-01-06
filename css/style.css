@@ -1,8 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+/* 
+font-family: 'Be Vietnam Pro', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+*/
 /* =================
 common css all
 ==================== */
-body{
+*{
     margin: 0;
     padding: 0;
     font-family: 'Be Vietnam Pro', sans-serif;
@@ -38,6 +43,7 @@ img{
 .btn:hover{
     background: green;
 }
+
 /* ========================
 section 01 start from here
 =========================== */
@@ -61,7 +67,7 @@ section 01 start from here
 }
 .section-01 .content .disc{
     font-size: 18px;
-    margin-bottom: 40px;
+    margin: 40px 0;
 }
 .section-01 .content .scroll-down{
     margin-top: 40px;
@@ -77,6 +83,7 @@ section 02 start from here
 .section-02 h1{
     font-size: 50px;
     text-align: center;
+    margin: 30px 0;
 }
 .section-02 .child{
     width: 30%;
@@ -87,7 +94,7 @@ section 02 start from here
     width: 30%;
     padding: 1.5rem;   
 }
-.img-size{
+.section-02 .img-size{
     width: 190px;
 }
 .section-02 .content01 h2{
@@ -119,7 +126,7 @@ section 03 start from here
 }
 .section-03 .content p{
     font-size: 21px;
-    padding: 15px 0;
+    padding: 30px 0;
     color: gray;
 }
 /* ========================
@@ -144,8 +151,52 @@ section 04 start from here
 }
 .section-04 .content p{
     font-size: 21px;
-    padding: 15px 0;
+    padding: 30px 0;
     color: gray;
+}
+/* ========================
+section 05 start from here
+=========================== */
+.section-05{
+    width: 100%;
+    margin: 80px 0;
+}
+.section-05 .head-title{
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Poppins', sans-serif;
+}
+.section-05 .line{
+    width: 200px;
+    margin: 10px auto;
+    height: 5px;
+    margin-bottom: 20px;
+    background: #3F6B91;
+
+}
+.section-05 .content{
+    padding: 20px;
+}
+.section-05 .content .title{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    color: gray;
+}
+.section-05 .content h1{
+    font-size: 40px;
+    margin: 0;
+    color: gray;
+    margin: 20px 0;
+}
+.section-05 .content{
+    font-size: 18px;
+    color: gray;
+}
+.section-05 .img-size{
+    width: 700px;
 }
 /*================================
  footer section start from here 
@@ -160,6 +211,7 @@ section 04 start from here
     color: white;
     padding: 50px 0px 28px 3px;
     margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .footer-content p{
     text-align: center;
