@@ -11,44 +11,21 @@ img{
     max-width: 100%;
 }
 .container{
-    max-width:1140px;
+    max-width:940px;
     margin: 0 auto;
 }
 .row{
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
 .half-width{
     width: 45%;
 }
-/* section 01 start from here */
-.section-01{
-    width: 100%;
-    margin: 40px 0;
-}
-
-.section-01 .content .line{
-    width: 5px;
-    height: 127px;
-    background: salmon;
-    border-radius: 20px;
-    position: absolute;
-}
-.section-01 .content .position h1{
-    font-size: 50px;
-    color: rgba(0, 0, 0, 0.7);
-    margin: 0;
-    margin-left: 20px;
-    position: relative;
-}
-.section-01 .content .position h1 .text-color{
+.text-color{
     color: #3F6B91;
 }
-.section-01 .content .position .disc{
-    font-size: 18px;
-    margin-bottom: 40px;
-}
-.section-01 .content .position .btn{
+.btn{
     text-decoration: none;
     padding: 18px 20px;
     font-size: 20px;
@@ -58,11 +35,114 @@ img{
     border-radius: 5px;
     border: none;
 }
-.section-01 .content .position .btn:hover{
+.btn:hover{
     background: green;
 }
-.section-01 .content .position .scroll-down{
+/* ========================
+section 01 start from here
+=========================== */
+.section-01{
+    width: 100%;
+    margin: 80px 0;
+}
+.section-01 .content .line{
+    width: 5px;
+    height: 127px;
+    background: salmon;
+    border-radius: 20px;
+    position: absolute;
+}
+.section-01 .content h1{
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 0;
+    margin-left: 20px;
+    position: relative;
+}
+.section-01 .content .disc{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.section-01 .content .scroll-down{
     margin-top: 40px;
     font-size: 20px;
 }
-/* section 01 end from here */
+/* ========================
+section 02 start from here
+=========================== */
+.section-02{
+    width: 100%;
+    margin: 80px 0;
+}
+.section-02 h1{
+    font-size: 50px;
+    text-align: center;
+}
+.section-02 .child{
+    width: 30%;
+    padding: 1.5rem;
+    background-color: #FFF4D6;   
+}
+.section-02 .child02{
+    width: 30%;
+    padding: 1.5rem;   
+}
+.img-size{
+    width: 190px;
+}
+.section-02 .content01 h2{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 30px;
+}
+.section-02 .content01  p{
+    font-size: 18px;
+    color: gray;
+}
+/* =========================
+section 03 start from here
+============================ */
+.section-03{
+    width: 100%;
+    margin: 80px 0;
+    background-image: url(../img/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 450px;
+}
+.section-03 .content{
+    padding: 35px 0;
+}
+.section-03 .content h1{
+    font-size: 40px;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.6);
+}
+.section-03 .content p{
+    font-size: 21px;
+    padding: 15px 0;
+    color: gray;
+}
+/* ========================
+section 04 start from here
+=========================== */
+.section-04{
+    width: 100%;
+    margin: 80px 0;
+    background-image: url(../img/shapes/shape-6.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 450px;
+}
+.section-04 .content{
+    padding: 35px 0;
+}
+.section-04 .content h1{
+    font-size: 40px;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.6);
+}
+.section-04 .content p{
+    font-size: 21px;
+    padding: 15px 0;
+    color: gray;
+}
