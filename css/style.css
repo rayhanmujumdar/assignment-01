@@ -11,7 +11,7 @@ img{
     max-width: 100%;
 }
 .container{
-    max-width: 940px;
+    max-width:1140px;
     margin: 0 auto;
 }
 .row{
@@ -29,14 +29,15 @@ img{
 
 .section-01 .content .line{
     width: 5px;
-    height: 100px;
+    height: 127px;
     background: salmon;
     border-radius: 20px;
     position: absolute;
 }
 .section-01 .content .position h1{
-    font-size: 40px;
+    font-size: 50px;
     color: rgba(0, 0, 0, 0.7);
+    margin: 0;
     margin-left: 20px;
     position: relative;
 }
